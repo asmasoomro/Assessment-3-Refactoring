@@ -1,0 +1,1 @@
+Made a PpsChceker class. During editing an employee the checker is used and there is no need to validate the pps to make sure it exists. 
