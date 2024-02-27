@@ -4,15 +4,19 @@
  * 
  * */
 
-public class Employee{
-	private int employeeId;
-	private String pps;
-	private String surname;
-	private String firstName;
-	private char gender;
-	private String department;
-	private double salary;
-	private boolean fullTime;
+import java.io.Serializable;
+
+public class Employee implements Serializable {
+    private static final long serialVersionUID = 1L;
+
+    private int employeeId;
+    private String pps;
+    private String surname;
+    private String firstName;
+    private char gender;
+    private String department;
+    private double salary;
+    private boolean fullTime;
 
 	// Create Employee with no details
 	public Employee() {
