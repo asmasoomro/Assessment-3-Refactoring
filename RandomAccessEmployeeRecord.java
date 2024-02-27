@@ -14,7 +14,7 @@ public class RandomAccessEmployeeRecord extends Employee
    // Create empty record
    public RandomAccessEmployeeRecord()
    {
-      this(0, "","","",'\0', "", 0.0, false);
+      super();
    } // end RandomAccessEmployeeRecord
 
    // Initialize record with details
